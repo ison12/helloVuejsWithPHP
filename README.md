@@ -23,6 +23,7 @@ Vue.jsのSFC（単一ファイルコンポーネント）＋PHPでWebアプリ�
 
     cd [Git cloneしたディレクトリ or Downloadディレクトリ]
     npm install
+    composer install
 
 ## 起動方法
 
