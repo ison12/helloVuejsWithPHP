@@ -3,8 +3,7 @@ const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 const prefixUri = "/hello-vuejs";
-
-module.exports = {
+const settings = {
     resolve: {
         modules: [
             path.resolve('./src'),
@@ -43,4 +42,9 @@ module.exports = {
     plugins: [
         new VueLoaderPlugin()
     ]
+};
+
+module.exports = {
+    prefixUri: prefixUri,
+    settings: settings
 };
